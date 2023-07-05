@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_login"
+    android:padding="16dp"
+
+    tools:context=".SignInActivity">
+
+    <EditText
+        android:id="@+id/ET_Usernamesign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="428dp"
+        android:backgroundTint="@color/white"
+        android:minHeight="48dp"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white"
+        android:textSize="18dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.262"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/BTN_signIn"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/outcome_purple"
+        android:text="CRIE UMA CONTA"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.427"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ET_Passwordsign" />
+
+    <EditText
+        android:id="@+id/ET_Passwordsign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:minHeight="48dp"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white"
+        android:textSize="18dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.262"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ET_Usernamesign" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
