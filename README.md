@@ -1,12 +1,12 @@
-#Projeto Final da Disciplina de Programação para Dispositivos Móveis
+# Projeto Final da Disciplina de Programação para Dispositivos Móveis
 
 Projeto Final da Disciplina de Programação para Dispositivos Móveis onde o objetivo foi criar um Aplicativo Financeiro no Android Studio utilizando Java + XML.
 
-##Objetivo
+## Objetivo
 
 O objetivo do aplicativo é um app de finanças pessoais para que os usuários possam gerenciar melhor seu dinheiro.
 
-##Funcionalidades:
+## Funcionalidades:
 
 - Login e Cadastro de usuário utilizando Firebase
 - Dashboard com Entradas e Despesas
